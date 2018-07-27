@@ -37,6 +37,7 @@
     "react": "^16.4.1",
     "react-chartjs-2": "^2.7.4",
     "react-dom": "^16.4.1",
+    "react-vis": "^1.10.4",
     "recharts": "^1.1.0"
   }
 }

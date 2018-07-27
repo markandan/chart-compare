@@ -3,21 +3,25 @@ import ReactDOM from 'react-dom';
 import ReChartsComponent from './rechart';
 import ChartjsComponent from './chartjs';
 import EchartsComponent from './echarts';
+import ReactvisChart from './reactvis';
 
 ReactDOM.render(
   <div>
-    <h1>
+    <h2>
       ReCharts
-    </h1>
+    </h2>
     <ReChartsComponent />
-    <h1>
+    <h2>
       Chart.js
-    </h1>
+    </h2>
     <ChartjsComponent />
-    <h1>
+    <h2>
       Echarts
-    </h1>
+    </h2>
     <EchartsComponent />
+    <h2>React Vis
+    </h2>
+    <ReactvisChart></ReactvisChart>
   </div>,
-  document.getElementById('app'),
+  document.getElementById('app')
 );
